@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom School Theme Overrides */
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200 border;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white border-transparent hover:bg-blue-700;
+  }
+
+  .btn-outline {
+    @apply bg-white text-slate-600 border-slate-300 hover:bg-slate-50;
+  }
+
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-sm border border-slate-200;
+  }
+
+  .input-field {
+    @apply w-full p-2 border border-slate-300 rounded-md mt-1 focus:ring-2 focus:ring-blue-500 focus:outline-none;
+  }
+
+  /* Indian School Table Style */
+  .data-table {
+    @apply w-full text-left border-collapse;
+  }
+
+  .data-table th {
+    @apply p-3 bg-slate-50 text-slate-600 font-semibold border-b border-slate-200;
+  }
+
+  .data-table td {
+    @apply p-3 border-b border-slate-100 text-slate-700;
+  }
+}

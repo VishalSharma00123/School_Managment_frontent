@@ -1,0 +1,5 @@
+/* Global styles for app component if needed, otherwise empty is fine */
+:host {
+  display: block;
+  height: 100%;
+}
