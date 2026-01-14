@@ -8,7 +8,7 @@ import { ExamSetupComponent } from './admin/exam-setup/exam-setup.component';
 import { TeacherDashboardComponent } from './teacher/teacher-dashboard/teacher-dashboard.component';
 import { AttendanceComponent } from './teacher/attendance/attendance.component';
 import { StudentProfileComponent } from './student/student-profile/student-profile/student-profile.component';
-import { MarksEntryComponent } from './teacher/marks-entry/marks-entry/marks-entry.component';
+import { MarksEntryComponent } from './teacher/marks-entry/marks-entry.component';
 
 export const routes: Routes = [
     {
