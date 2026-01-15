@@ -71,9 +71,9 @@ import { filter } from 'rxjs/operators';
           </div>
         </header>
 
-        <!-- Scrollable Content -->
+        <!-- Scrollable Content, child component get loaded here -->
         <div class="flex-1 overflow-y-auto p-6">
-          <router-outlet></router-outlet>
+          <router-outlet></router-outlet> 
         </div>
       </main>
     </div>

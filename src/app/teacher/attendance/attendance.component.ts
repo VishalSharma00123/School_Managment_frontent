@@ -79,11 +79,17 @@ export class AttendanceComponent {
     { roll: 2, name: 'Aditi Sharma', status: 'P', remark: '' },
     { roll: 3, name: 'Arjun Singh', status: 'A', remark: 'Sick Leave' },
     { roll: 4, name: 'Diya Gupta', status: 'P', remark: '' },
+    { roll: 4, name: 'Diya Gupta', status: 'P', remark: '' },
+    { roll: 4, name: 'Diya Gupta', status: 'P', remark: '' },
     { roll: 5, name: 'Ishaan Kumar', status: 'P', remark: '' },
+    { roll: 4, name: 'Diya Gupta', status: 'P', remark: '' },
     { roll: 6, name: 'Kavya Reddy', status: 'L', remark: 'Bus Late' },
   ];
+
+
 
   getCount(status: string) {
     return this.students.filter(s => s.status === status).length;
   }
 }
+
